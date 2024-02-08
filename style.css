@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Consola";
+    color: yellowgreen;
+    margin: 0;
+    background-color: #202020;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+/* Cover */
+.cover{
+    background: url(material/Fondo.jpg)  no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    @media(max-width:900px){
+        height: 35vh;
+    }
+}
+/* Navbar */
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+}
+/* Banner */
+.banner{
+    height: 7vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: url(material/BancosyTarjetas.png)  no-repeat center center;
+    background-size: 30%;
+    background-color: black;    
+    @media(max-width:900px){
+        background-size: 70%;
+    }
+}
+
+/* Grid */
+.grid-containt{
+    height:100vh;
+    width: 100%;
+    background: url(material/leaf.png) repeat;
+    background-size: 5%;
+    background-color: white;   
+    @media(max-width:900px){
+        background-size: 7%;
+    } 
+}
+
+    /* Grid-Item */
+    /* Cards */
+
+/* Footer */
+.foot{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+}
+
